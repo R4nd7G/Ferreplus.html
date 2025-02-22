@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contáctanos</title>
     <style>
         body {
             margin: 0;
@@ -24,46 +24,14 @@
             margin: 0;
             font-size: 50px;
         }
-        .slogan {
-            background-color: red;
-            height: 25px;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            padding: 5px 0;
-        }
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
             padding: 20px;
         }
-        .box {
-            width: 30%;
-            padding: 10px;
-            border: 4px solid #CCC;
-            text-align: center;
+        .contact-info {
+            margin-top: 20px;
         }
-        .box img {
-            width: 100%;
-            height: auto;
-        }
-        @media (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                text-align: center;
-            }
-            .header img {
-                height: 60px;
-                margin-bottom: 10px;
-            }
-            .header h1 {
-                font-size: 40px;
-            }
-            .box {
-                width: 100%;
-                margin-bottom: 20px;
-            }
+        .contact-info p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -72,26 +40,14 @@
         <img src="Logo ferreplus.jpg" alt="Logo de la página">
         <h1>Ferreplus</h1>
     </header>
-    <div class="slogan">Construyendo tus sueños, herramienta a herramienta</div>
-    <br><br>
     <div class="container">
-        <div class="box">
-            <h1 style="color:#C00">Herramientas</h1>
-            <a href="Herramientas.html">
-                <img src="mechanic-tools-logo-free-vector.jpg" alt="Herramientas">
-            </a>
-        </div>
-        <div class="box">
-            <h1 style="color:#C00">Servicios</h1>
-            <a href="Servicios.html">
-                <img src="repair-and-service-logo-template-vector.jpg" alt="Servicios">
-            </a>
-        </div>
-        <div class="box">
-            <h1 style="color:#C00">Contáctanos</h1>
-            <a href="Contactanos.html">
-            <img src="Contact logo.jpg" alt="Contáctanos">
-            </a>
+        <h2>Contáctanos</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:info@ferreplus.com">info@ferreplus.com</a></p>
+            <p>Teléfono: <a href="tel:+521234567890">+52 1 234 567 890</a></p>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <p><a href="https://www.facebook.com/ferreplus" target="_blank">Facebook</a></p>
+            <p><a href="https://www.instagram.com/ferreplus" target="_blank">Instagram</a></p>
         </div>
     </div>
 </body>
